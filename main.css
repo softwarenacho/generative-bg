@@ -1,0 +1,23 @@
+html {
+  height: 100vh;
+  width: 100vw; }
+  html body {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin: unset;
+    z-index: 1; }
+    html body .cell {
+      position: fixed;
+      width: 3px;
+      height: 3px;
+      z-index: 0; }
+      html body .cell img {
+        opacity: 0.25;
+        object-fit: cover; }
+
+h1 {
+  text-align: center;
+  color: #24214aeb; }
+
+/*# sourceMappingURL=main.css.map */
